@@ -49,6 +49,7 @@ export class Store {
         seedVerify: ['', '', ''],
         seedIndex: 0,
         restoring: false,
+        autofocusRestoreInput: true,
         restoreIndex: 0,
         restoreSeed: Array(24).fill(''),
       },
